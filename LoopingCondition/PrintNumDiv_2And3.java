@@ -1,4 +1,4 @@
-// Getting input from user starting and ending. Divided by both 2 and 3.
+// Getting input from the user for the start and end. Divided by both 2 and 3.
 
 import java.util.Scanner;
 
@@ -18,5 +18,6 @@ public class PrintNumDiv_2And3 {
                 System.out.println(i);
             }
         }
+        get.close();
     }
 }
