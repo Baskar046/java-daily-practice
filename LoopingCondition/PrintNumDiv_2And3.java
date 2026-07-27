@@ -3,7 +3,8 @@
 import java.util.Scanner;
 
 public class PrintNumDiv_2And3 {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
 
         Scanner get = new Scanner(System.in);
 
@@ -13,8 +14,8 @@ public class PrintNumDiv_2And3 {
         System.out.print("enter the ending value: ");
         int b = get.nextInt();
 
-        for(int i=a; i<=b; i++){
-            if(i%2==0 && i%3==0){
+        for (int i = a; i <= b; i++) {
+            if (i % 2 == 0 && i % 3 == 0) {
                 System.out.println(i);
             }
         }

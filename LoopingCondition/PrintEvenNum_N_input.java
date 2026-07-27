@@ -23,16 +23,17 @@ Output
 
 import java.util.Scanner;
 
-public class PrintEvenNum_N_input{
-    public static void main(String[] args){
+public class PrintEvenNum_N_input {
+
+    public static void main(String[] args) {
 
         Scanner get = new Scanner(System.in);
 
         System.out.print("Enter the number: ");
         int n = get.nextInt();
 
-        for(int i=1; i<=n ; i++){
-            if (i%2==0){
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
