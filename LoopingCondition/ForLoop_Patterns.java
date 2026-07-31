@@ -122,9 +122,28 @@ public class ForLoop_Patterns {
         **
         *
         
+         */
+        System.out.println("\n Triangle Patterns");
+        for (int i = 1; i <= 5; i++) {      // handle row
+            for (int j = 4; j >= i; j--) {
+                System.out.print(" ");      // Print space
+            }
+            for (int k = 1; k <= i; k++) {
+                System.out.print("*");      // print star
+            }
+            System.out.println();
+        }
+
+        /*
+        Output:
+        
+            *
+           **
+          ***
+         ****
+        *****
+
         */
 
-
-       
     }
 }
