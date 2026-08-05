@@ -70,8 +70,32 @@ public class ForLoop_Patterns {
         1 2 3 4
         1 2 3 4
 
-
          */
+
+        System.out.println("\nRow Number");
+
+        int count = 0;
+
+        for(int i=1; i<=3; i++){
+            for(int j=1; j<=3; j++){
+                count +=1;
+                System.out.print(count);
+            }
+            System.out.println();
+
+        }
+
+        /*
+        
+        Output:
+
+        123
+        456
+        789
+
+        */
+
+
         System.out.println("\n coordinates");
         for (int i = 1; i <= 4; i++) {
             for (int j = 1; j <= 4; j++) {
