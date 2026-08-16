@@ -22,20 +22,26 @@ import java.util.Scanner;
 
                     int MenuInput = get.nextInt();
 
-                    if (MenuInput == 1) {
-                        Check_Balance();
-                    } else if (MenuInput == 2) {
-                        Deposit_Money();
-                    } else if (MenuInput == 3) {
-                        Withdraw_Money();
-                    } else if (MenuInput == 4) {
-                        Change_PIN();
-                    } else if (MenuInput == 5) {
-                        Exit();
-                    } else {
-                        System.out.println("Enter the valid Option..");
+                    switch (MenuInput) {
+                        case 1:
+                            Check_Balance();
+                            break;
+                        case 2:
+                            Deposit_Money();
+                            break;
+                        case 3:
+                            Withdraw_Money();
+                            break;
+                        case 4:
+                            Change_PIN();
+                            break;
+                        case 5:
+                            Exit();
+                            break;
+                        default:
+                            System.out.println("Enter the valid Input");
+                            break;
                     }
-
                     if(MenuInput == 5){
                         break;
                     }
