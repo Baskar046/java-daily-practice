@@ -1,5 +1,5 @@
 
-public class LargestSmallestNum {
+public class LargestAndSmallestNum {
 
     public static void main(String[] args) {
 
