@@ -1,4 +1,7 @@
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class FrequencyOfEachElement {
 
     public static void main(String[] args) {
@@ -25,6 +28,15 @@ public class FrequencyOfEachElement {
             System.out.println(arr[i] + " -> " + count);
 
         }
+
+
+        //Using the hashmap method.
+        Map<Integer, Integer> map1= new HashMap<>();
+
+        for(int num_1 : arr){
+            map1.put(num_1, map1.getOrDefault(num_1,0) + 1);
+        }
+        System.out.println(map1);
     }
 
 }
