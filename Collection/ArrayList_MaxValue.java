@@ -15,11 +15,15 @@ public class ArrayList_MaxValue {
         int largest_num = numbers.get(0);
 
         for (int i = 0; i < numbers.size(); i++) {
-            if (numbers.get(i) > largest_num) {
-                largest_num = numbers.get(i);
+
+            if (numbers.get(i) != null) {
+                if (numbers.get(i) > largest_num) {
+                    largest_num = numbers.get(i);
+                }
             }
         }
 
         System.out.println("Largest Number: " + largest_num);
     }
+
 }
