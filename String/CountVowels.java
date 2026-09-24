@@ -3,7 +3,7 @@ public class CountVowels {
 
     public static void main(String[] args) {
 
-        String Input = "Automation";
+        String Input = "Automation".toLowerCase();
 
         char[] regex = Input.toCharArray();
 
